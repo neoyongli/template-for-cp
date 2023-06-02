@@ -1,5 +1,7 @@
-
 //author: yl_neo
+//compile:g++ -std=c++17 -O3 -Wshadow -Wall -o "%e" "%f" -Wno-unused-result
+//build:g++ -std=c++17 -O3 -Wshadow -Wall -o "%e" "%f" -g -D_GLIBCXX_DEBUG
+//lint:cppcheck --language=c++ --enable=warning,style --template=gcc "%f"
 #include <bits/stdc++.h>
 #include<unordered_map>
 #include<unordered_set>
