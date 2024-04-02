@@ -1,0 +1,1 @@
+These code templates is to provide an outline of how some of the templates are setup. It also serves as a efficient and easy template for people to use. It is fine to copy these files in this "template-for-cp" folder, but it would be recommended that one can try to understand the code and write a template of their own style.
