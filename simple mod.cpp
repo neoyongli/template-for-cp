@@ -7,7 +7,7 @@ i64 fpow(i64 a, i64 b) {
     while (b) { if (b & 1) res = prod(res, a); a = prod(a, a); b >>= 1; }
     return res;
 }
-i64 div(i64 x, i64 y) { return prod(x, fpow(y, mod - 2)); }
+i64 divi(i64 x, i64 y) { return prod(x, fpow(y, mod - 2)); }
 
 // this code performs the 4 main basic operations used + binary exponential, change the mod value if the mod is not 998244353
 // sometimes it goes over the mod value, remember to modulo before printing
